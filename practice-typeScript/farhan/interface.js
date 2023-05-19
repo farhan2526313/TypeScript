@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let a = { name: "farhan", age: 25 };
+let c = { name: "ali", age: 24 };
+a = c;
+c = a;
+let d = { name: "farhan", age: 25 };
+let e = { name: "ali", age: 24 };
+d = e;
+e = d;
+;
+let f = { name: "Hadir", age: 12, gender: "Male" };
+// f =d ;
+d = f;
+let i;
+i = { id: 15, name: "ali" };
+// let   = {id : 13, yourname : "ali" }
+// i = y;
+i = { id: 15, fullname: "ali" };
+i = { id: 10, myname: "farhan" };
+let mytype = { name: "Farhan", age: 15 };
+let mytype1 = { name: "Farhan", age: 15, id: 11 };
+mytype = mytype1;
